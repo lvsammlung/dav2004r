@@ -24,7 +24,7 @@
     "href": "index.html#tafeln-für-die-reservierung-des-bestands",
     "title": "DAV 2004 R",
     "section": "Tafeln für die Reservierung des Bestands",
-    "text": "Tafeln für die Reservierung des Bestands\nAusgehend von der Sterbetafel DAV 2004 R 2. Ordnung wurden mit den beiden Tafeln DAV 2004 R Bestand und DAV 2004 R B20 Tafeln zur Reservierung des Bestands mit einer eigenen Richtlinie hergeleitet3. Die DAV 2004 R Bestand wurde für den Zeitpunkt der Herleitung als angemessen angesehen, aufgrund der Unsicherheiten bezüglich des Trends aber vorgesehen schrittweise bis zum Jahr 2024 auf die vorsichtigere Tafel B20 überzugehen.\nEs wurde bis 2024 jährlich überprüft, ob sich eine Trenddämpfung eingestellt und damit auf den Aufbau der Sicherheiten verzichtet werden könnte. Die letztmalige Überprüfung des Trendansatzes, welche den Ausbau der Sicherheiten auf die volle B20 Tafel empfahl, wurde am 16. Mai 2024 als Richtlinie veröffentlicht4.\nEine Überprüfung der Richtlinie für die Reservierung des Bestands5 als Ganzes fand zuletzt am 12. Januar 2018 als Ergänzung zur Überprüfung der Richtlinie für die Herleitung der DAV 2004 R statt,",
+    "text": "Tafeln für die Reservierung des Bestands\nAusgehend von der Sterbetafel DAV 2004 R 2. Ordnung wurden mit den beiden Tafeln DAV 2004 R Bestand und DAV 2004 R B20 Tafeln zur Reservierung des Bestands mit einer eigenen Richtlinie hergeleitet3. Die DAV 2004 R Bestand wurde für den Zeitpunkt der Herleitung als angemessen angesehen, aufgrund der Unsicherheiten bezüglich des Trends aber vorgesehen, schrittweise bis zum Jahr 2024 auf die vorsichtigere Tafel B20 überzugehen.\nEs wurde bis 2024 jährlich überprüft, ob sich eine Trenddämpfung eingestellt und damit auf den Aufbau der Sicherheiten verzichtet werden könnte. Die letztmalige Überprüfung des Trendansatzes, welche den Ausbau der Sicherheiten auf die volle B20 Tafel empfahl, wurde am 16. Mai 2024 als Richtlinie veröffentlicht4.\nEine Überprüfung der Richtlinie für die Reservierung des Bestands5 als Ganzes fand zuletzt am 12. Januar 2018 als Ergänzung zur Überprüfung der Richtlinie für die Herleitung der DAV 2004 R statt,",
     "crumbs": [
       "Info"
     ]
@@ -40,66 +40,68 @@
     ]
   },
   {
-    "objectID": "dav2004r/dav2004r.html",
-    "href": "dav2004r/dav2004r.html",
-    "title": "DAV 2004 R",
+    "objectID": "dav2004r/tafelstruktur.html",
+    "href": "dav2004r/tafelstruktur.html",
+    "title": "1  Überblick zur Tafelstruktur",
     "section": "",
-    "text": "Überblick Tafeln\nEs gibt die Tafeln",
+    "text": "1.1 Überblick Tafeln\nEs gibt die Tafeln\nals Basisjahr wird jeweils das Jahr 1999 angesetzt.",
     "crumbs": [
-      "DAV 2004 R"
+      "DAV 2004 R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Überblick zur Tafelstruktur</span>"
     ]
   },
   {
-    "objectID": "dav2004r/dav2004r.html#überblick-tafeln",
-    "href": "dav2004r/dav2004r.html#überblick-tafeln",
-    "title": "DAV 2004 R",
+    "objectID": "dav2004r/tafelstruktur.html#überblick-tafeln",
+    "href": "dav2004r/tafelstruktur.html#überblick-tafeln",
+    "title": "1  Überblick zur Tafelstruktur",
     "section": "",
-    "text": "Aggregat (1. und 2. Ordnung)\nSelektion (1. und 2. Ordnung)\nsowie die Trendtafeln\n\nStarttrend 2. Ord (Kurzfisttrend erhöht um Versichertenzuschlag)\nZieltrend 2. Ord (75% Mittelfirsttrent erhöht um Versichertenzuschlag)\nTrend 1. Ord (Starttrend 2. Ord erhöht um Änderungsrisiko)",
+    "text": "Aggregat (1. und 2. Ordnung)\nSelektion (1. und 2. Ordnung)\nsowie die Trendtafeln\n\nStarttrend 2. Ord (Kurzfisttrend erhöht um Versichertenzuschlag)\nZieltrend 2. Ord (entspricht Trend mit Sterblichkeitsverbesserungen von 75% des Mittelfirsttrents, für Alter 60-89 erhöht um mittlere Differenz von kurz und Mittelfristtrend von 0,3%, erhöht um Versichertenzuschlag von 0,2%)\nTrend 1. Ord (Starttrend 2. Ord erhöht um Änderungsrisiko, erhöht um Versichertenzuschlag von 0,2%)\n\n\n\n\n1.1.1 Tafel 2. Ordnung\nEs wird eine lineare Trenddämpfung umgesetzt (wobei die Jahre dafür nicht vorgegeben sind), das heißt des findet ein Übergang statt vom Starttrend (~ Kurzfisttrend) auf den Zieltrend (auf 75% reduzierter geglätteter Mittelfristtrend inkl. Versichertenzuschlag).\nDer Über",
     "crumbs": [
-      "DAV 2004 R"
+      "DAV 2004 R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Überblick zur Tafelstruktur</span>"
     ]
   },
   {
     "objectID": "dav2004r/uebersicht.html",
     "href": "dav2004r/uebersicht.html",
-    "title": "1  Quellen",
+    "title": "2  Quellen",
     "section": "",
-    "text": "1.1 DAV",
+    "text": "2.1 DAV",
     "crumbs": [
       "DAV 2004 R",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "dav2004r/uebersicht.html#dav",
     "href": "dav2004r/uebersicht.html#dav",
-    "title": "1  Quellen",
+    "title": "2  Quellen",
     "section": "",
     "text": "DAV 2008 T https://aktuar.de/de/wissen/fachinformationen/detail/herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/\nDAV 2008 T NR https://aktuar.de/de/wissen/fachinformationen/detail/raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/",
     "crumbs": [
       "DAV 2004 R",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "dav2004r/uebersicht.html#qx-club",
     "href": "dav2004r/uebersicht.html#qx-club",
-    "title": "1  Quellen",
-    "section": "1.2 Qx-Club",
-    "text": "1.2 Qx-Club\nhttp://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf",
+    "title": "2  Quellen",
+    "section": "2.2 Qx-Club",
+    "text": "2.2 Qx-Club\nhttp://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf",
     "crumbs": [
       "DAV 2004 R",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "root_chapter/trendbetrachtung.html",
     "href": "root_chapter/trendbetrachtung.html",
-    "title": "2  Trendbetrachtung",
+    "title": "3  Trendbetrachtung",
     "section": "",
     "text": "Warning: Paket 'dplyr' wurde unter R Version 4.4.3 erstellt\n\n\n\nAttache Paket: 'dplyr'\n\n\nDie folgenden Objekte sind maskiert von 'package:stats':\n\n    filter, lag\n\n\nDie folgenden Objekte sind maskiert von 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\nWarning: Paket 'ggplot2' wurde unter R Version 4.4.3 erstellt\n\n\nWarning: Paket 'tidyr' wurde unter R Version 4.4.3 erstellt",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Trendbetrachtung</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trendbetrachtung</span>"
     ]
   }
 ]
