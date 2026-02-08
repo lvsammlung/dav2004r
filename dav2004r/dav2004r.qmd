@@ -1,0 +1,81 @@
+# DAV 2008 T
+
+Die Tafel DAV 2008 T wurde erstmals am 4. Dezember 2008 als **Richtlinie** der DAV verabschiedet. Zuletzt 2022 überprüft ([siehe aktuar.de](#0)).
+
+*"Die Richtlinie **regelt verbindlich** die **Methodik zur Herleitung von Sterbetafeln** für die Reservierung und das **Verfahren zur Festsetzung von Sicherheitszuschlägen** bei den oben genannten Produkten. Diese methodischen Vorgaben stellen dabei in genereller Hinsicht einen **Mindeststandard** dar, der insbesondere auch bei der Herleitung unternehmenseigener Tafeln zu gewährleisten ist."*
+
+## Daten
+
+### Zentrale Altersbereiche
+
+Für den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren **2001-2004** verwendet. Leitlinie ist die Regel $l_x \cdot q_x^{roh} \cdot (1-q_x^{roh}) \geq 9$ .
+
+Risiko- und Kapitallebensversicherungen sowie fondsgebundene Versicherungen.
+
+Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.
+
+Verweildauermethode mit Verweildauer 1 der beobachteten Toten.
+
+### Randbereich
+
+Bevölkerungsdaten
+
+## Tafel 2. Ord
+
+![](images/clipboard-4241905034.png)
+
+### Glättung
+
+Glättung des zentralen Altersbereichs mit Whittaker-Henderson (s=3, g=0,5)
+
+> Beim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:
+>
+> -   Gute Approximation der rohen Werte
+>
+> -   Glättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.
+>
+> Zusätzlich soll die Extrapoliation im Fall der DAV 2008 T so gewählt sein, dass ein möglichst glatter Übergang zu den Bevölkerungssterbewahrscheinlichkeiten an den Übergangsstellen gewährleistet ist.
+
+### Extrapolation
+
+#### Bis Alter 100
+
+> **Ansatz:** Glättung von Bevölkerungsdaten, Bestimmung von Schnittstellen mit geglätteten Versichertendaten, um Übergang zu wählen. Der Übergang stellt sich als hinreichend glatt dar, so dass keine weitere Glättung nach Verbinden der glatten Versicherten- und Bevölkerungssterbewahrscheinlichkeiten notwendig sind.
+
+**Daten:** Bevölkerungsdaten: St 2002/04 D, Altersbereich 1-100
+
+**Glättung:** werden ebenfalls mit WH geglättet: Altersbereich 1-100, s=2, g=0, Bevölkerungsverteilung vom 1.1.2003 (s. \[Human Mortality Database\], S.12 der Herleitung)
+
+**Übergang:** Altern 20/21 und 71/72 für Männer sowie in den Altern 17/18 und 72/73 für Frauen. (In höheren Altern findet nachfolgend ein Übergang auf die mit dem logistischen Modell gewählten Extrapolation statt).
+
+#### Ab Alter 100
+
+Die Sterbetafel soll Wahrscheinlichkeiten bis zum Alter 121 erhalten. Für die Alter über 100 wird dafür das Logistische Modell mit vier Parametern (wie in der DAV 2004 R verwendet und sich als gutes Verfahren zur Extrapolation sehr hoher Alter herausgestellt hat).
+
+## Sicherheitszuschläge
+
+Es gibt
+
+-   einen **Schwankungszuschlag** $s^{\alpha} = 7,4\%$ (geschlechts- und altersunabhängig)
+
+-   sowie einen **Irrtumszuschlag** bestehend aus zwei Komponenten ($r^2$ unternehmensabhängig bei Fehlen ausreichend sicherer Erkenntnisse zum eigenen Bestand)
+
+-   ein impliziter **Änderungszuschlag** ist über die Sterblichkeitsverbesserung bereits enthalten
+
+$$𝑞_𝑥^{1. Ord}= 𝑞_𝑥^{2. Ord} \cdot (1+s^{\alpha}) \cdot (1 + r^1 + r^2)$$
+
+### Schwankungsrisiko
+
+#### Übersicht
+
+-   anzahlgewichtete Auswertung (VSUM-Angaben widersprüchlich)
+
+-   Geschlechts- und altersunabhängig, Sicherheitsniveau von 95%
+
+    -   Vorteil: robuster gegen Abweichungen zwischen Herleitungs- und Anwendungsbestand (zusätzlich in Irrtumsrisiko erfasst), erleichtert Ableitung von Tafelvarianten.
+
+    -   Modellbestand für Alter 20-65 (wo Versichertendaten vorliegen)
+
+### Irrtumsrisiko
+
+-   Irrtumsrisiko - für Herleitung und Anwendung

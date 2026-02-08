@@ -1,0 +1,10 @@
+# Quellen
+
+## DAV
+
+-   DAV 2008 T <https://aktuar.de/de/wissen/fachinformationen/detail/herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/>
+-   DAV 2008 T NR <https://aktuar.de/de/wissen/fachinformationen/detail/raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/>
+
+## Qx-Club
+
+<http://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf>

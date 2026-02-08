@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "DAV 2004 R"
+  author: "Norah Jones"
+  date: "9.11.2025"
+  chapters:
+    - index.qmd
+    - part: dav2004r/dav2004r.qmd
+      chapters: 
+      - dav2004r/uebersicht.qmd
+    # - part: dav2008t/dav2008t.qmd
+    #   chapters: 
+    #   - dav2008t/xxx.qmd
+    #   - dav2008t/quellen.qmd
+    # - part: Sonstiges
+    #   chapters:
+    #   - sonstiges/verweildauermethode.qmd
+
+execute: 
+  echo: false
+  freeze: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+
+editor: visual
+
