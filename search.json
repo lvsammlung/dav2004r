@@ -44,7 +44,17 @@
     "href": "dav2004r/dav2004r.html",
     "title": "DAV 2004 R",
     "section": "",
-    "text": "Die Tafel DAV 2004 R wurde erstmals am 14. September 2005 als Richtlinie der DAV verabschiedet. Das letzte mal wurde die Richtlinie nach Überprüfung unverädert am 28. Juni 2023 veröffentlicht. Die Ergebnisse der Analyse wurden zudem im Ergebnisbericht Turnusgemäße Überprüfung der DAV2004R für Rentenversicherungen vom 10. Mai 2023 zusammengefasst.",
+    "text": "Überblick Tafeln\nEs gibt die Tafeln",
+    "crumbs": [
+      "DAV 2004 R"
+    ]
+  },
+  {
+    "objectID": "dav2004r/dav2004r.html#überblick-tafeln",
+    "href": "dav2004r/dav2004r.html#überblick-tafeln",
+    "title": "DAV 2004 R",
+    "section": "",
+    "text": "Aggregat (1. und 2. Ordnung)\nSelektion (1. und 2. Ordnung)\nsowie die Trendtafeln\n\nStarttrend 2. Ord (Kurzfisttrend erhöht um Versichertenzuschlag)\nZieltrend 2. Ord (75% Mittelfirsttrent erhöht um Versichertenzuschlag)\nTrend 1. Ord (Starttrend 2. Ord erhöht um Änderungsrisiko)",
     "crumbs": [
       "DAV 2004 R"
     ]
@@ -80,6 +90,16 @@
     "crumbs": [
       "DAV 2004 R",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
+    ]
+  },
+  {
+    "objectID": "root_chapter/trendbetrachtung.html",
+    "href": "root_chapter/trendbetrachtung.html",
+    "title": "2  Trendbetrachtung",
+    "section": "",
+    "text": "Warning: Paket 'dplyr' wurde unter R Version 4.4.3 erstellt\n\n\n\nAttache Paket: 'dplyr'\n\n\nDie folgenden Objekte sind maskiert von 'package:stats':\n\n    filter, lag\n\n\nDie folgenden Objekte sind maskiert von 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\nWarning: Paket 'ggplot2' wurde unter R Version 4.4.3 erstellt\n\n\nWarning: Paket 'tidyr' wurde unter R Version 4.4.3 erstellt",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Trendbetrachtung</span>"
     ]
   }
 ]
