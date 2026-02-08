@@ -5,3 +5,5 @@ dav-sterbetafeln.Rproj
 /_site/
 .RData
 .Rhistory
+
+**/*.quarto_ipynb
