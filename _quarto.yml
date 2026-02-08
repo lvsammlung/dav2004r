@@ -19,7 +19,7 @@ book:
     #   - sonstiges/verweildauermethode.qmd
 
 execute: 
-  echo: false
+  echo:   false
   freeze: true
 
 format:

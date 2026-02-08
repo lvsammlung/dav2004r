@@ -1,3 +1,15 @@
 # Info {.unnumbered}
 
-Sammlung zu DAV Sterbetafeln DAV 1994 T und DAV 2008 T.
+Sammlung zu den Sterbetafeln DAV 2004 R.
+
+## Tafeln des Neugeschäfts
+
+Die Tafel DAV 2004 R wurde erstmals am 14. September 2005 als **Richtlinie** der DAV verabschiedet. Das letzte mal wurde die Richtlinie nach Überprüfung unverädert am 28. Juni 2023 veröffentlicht [^index-1]. Die Ergebnisse der Analyse wurden zudem im Ergebnisbericht *Turnusgemäße Überprüfung der DAV2004R für Rentenversicherungen*[^index-2] vom 10. Mai 2023 zusammengefasst.
+
+[^index-1]: **Herleitung der Sterbetafel DAV 2004 R:** <https://aktuar.de/de/wissen/fachinformationen/detail/herleitung-der-dav-sterbetafel-2004-r-fuer-rentenversicherungen/>
+
+[^index-2]: Ueberpruefung des Fachgrundsatzes Herleitung der Dav 2004 R [https://aktuar.de/de/wissen/fachinformationen/detail/ueberpruefung-des-fachgrundsatzes-herleitung-der-dav-sterbetafel-2004-r-fuer-rentenversicherungen/](#0)
+
+## Tafeln für die Reservierung des Bestands
+
+Ausgehend von der Sterbetafel DAV 2004 R 2. Ordnung wurden mit den beiden Tafeln DAV 2004 R Bestand und DAV 2004 R B20 Tafeln zur Reservierung des Bestands hergeleitet. Die DAV 2004 R Bestand wurde für den Zeitpunkt der Herleitung als angemessen angesehen, aufgrund der Unsicherheiten bezüglich des Trends aber vorgesehen schrittweise bis zum Jahr 2024 auf die vorsichtigere Tafel B20 überzugehen.
