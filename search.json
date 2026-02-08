@@ -12,41 +12,11 @@
   {
     "objectID": "dav2004r/dav2004r.html",
     "href": "dav2004r/dav2004r.html",
-    "title": "DAV 2008 T",
+    "title": "DAV 2004 R",
     "section": "",
-    "text": "Daten\nDie Tafel DAV 2008 T wurde erstmals am 4. Dezember 2008 als Richtlinie der DAV verabschiedet. Zuletzt 2022 überprüft (siehe aktuar.de).\n“Die Richtlinie regelt verbindlich die Methodik zur Herleitung von Sterbetafeln für die Reservierung und das Verfahren zur Festsetzung von Sicherheitszuschlägen bei den oben genannten Produkten. Diese methodischen Vorgaben stellen dabei in genereller Hinsicht einen Mindeststandard dar, der insbesondere auch bei der Herleitung unternehmenseigener Tafeln zu gewährleisten ist.”",
+    "text": "Die Tafel DAV 2004 R wurde erstmals am 14. September 2005 als Richtlinie der DAV verabschiedet. Das letzte mal wurde die Richtlinie nach Überprüfung unverädert am 28. Juni 2023 veröffentlicht. Die Ergebnisse der Analyse wurden zudem im Ergebnisbericht Turnusgemäße Überprüfung der DAV2004R für Rentenversicherungen vom 10. Mai 2023 zusammengefasst.",
     "crumbs": [
-      "DAV 2008 T"
-    ]
-  },
-  {
-    "objectID": "dav2004r/dav2004r.html#daten",
-    "href": "dav2004r/dav2004r.html#daten",
-    "title": "DAV 2008 T",
-    "section": "",
-    "text": "Zentrale Altersbereiche\nFür den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren 2001-2004 verwendet. Leitlinie ist die Regel \\(l_x \\cdot q_x^{roh} \\cdot (1-q_x^{roh}) \\geq 9\\) .\nRisiko- und Kapitallebensversicherungen sowie fondsgebundene Versicherungen.\nUltimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.\nVerweildauermethode mit Verweildauer 1 der beobachteten Toten.\n\n\nRandbereich\nBevölkerungsdaten",
-    "crumbs": [
-      "DAV 2008 T"
-    ]
-  },
-  {
-    "objectID": "dav2004r/dav2004r.html#tafel-2.-ord",
-    "href": "dav2004r/dav2004r.html#tafel-2.-ord",
-    "title": "DAV 2008 T",
-    "section": "Tafel 2. Ord",
-    "text": "Tafel 2. Ord\n\n\nGlättung\nGlättung des zentralen Altersbereichs mit Whittaker-Henderson (s=3, g=0,5)\n\nBeim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:\n\nGute Approximation der rohen Werte\nGlättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.\n\nZusätzlich soll die Extrapoliation im Fall der DAV 2008 T so gewählt sein, dass ein möglichst glatter Übergang zu den Bevölkerungssterbewahrscheinlichkeiten an den Übergangsstellen gewährleistet ist.\n\n\n\nExtrapolation\n\nBis Alter 100\n\nAnsatz: Glättung von Bevölkerungsdaten, Bestimmung von Schnittstellen mit geglätteten Versichertendaten, um Übergang zu wählen. Der Übergang stellt sich als hinreichend glatt dar, so dass keine weitere Glättung nach Verbinden der glatten Versicherten- und Bevölkerungssterbewahrscheinlichkeiten notwendig sind.\n\nDaten: Bevölkerungsdaten: St 2002/04 D, Altersbereich 1-100\nGlättung: werden ebenfalls mit WH geglättet: Altersbereich 1-100, s=2, g=0, Bevölkerungsverteilung vom 1.1.2003 (s. [Human Mortality Database], S.12 der Herleitung)\nÜbergang: Altern 20/21 und 71/72 für Männer sowie in den Altern 17/18 und 72/73 für Frauen. (In höheren Altern findet nachfolgend ein Übergang auf die mit dem logistischen Modell gewählten Extrapolation statt).\n\n\nAb Alter 100\nDie Sterbetafel soll Wahrscheinlichkeiten bis zum Alter 121 erhalten. Für die Alter über 100 wird dafür das Logistische Modell mit vier Parametern (wie in der DAV 2004 R verwendet und sich als gutes Verfahren zur Extrapolation sehr hoher Alter herausgestellt hat).",
-    "crumbs": [
-      "DAV 2008 T"
-    ]
-  },
-  {
-    "objectID": "dav2004r/dav2004r.html#sicherheitszuschläge",
-    "href": "dav2004r/dav2004r.html#sicherheitszuschläge",
-    "title": "DAV 2008 T",
-    "section": "Sicherheitszuschläge",
-    "text": "Sicherheitszuschläge\nEs gibt\n\neinen Schwankungszuschlag \\(s^{\\alpha} = 7,4\\%\\) (geschlechts- und altersunabhängig)\nsowie einen Irrtumszuschlag bestehend aus zwei Komponenten (\\(r^2\\) unternehmensabhängig bei Fehlen ausreichend sicherer Erkenntnisse zum eigenen Bestand)\nein impliziter Änderungszuschlag ist über die Sterblichkeitsverbesserung bereits enthalten\n\n\\[𝑞_𝑥^{1. Ord}= 𝑞_𝑥^{2. Ord} \\cdot (1+s^{\\alpha}) \\cdot (1 + r^1 + r^2)\\]\n\nSchwankungsrisiko\n\nÜbersicht\n\nanzahlgewichtete Auswertung (VSUM-Angaben widersprüchlich)\nGeschlechts- und altersunabhängig, Sicherheitsniveau von 95%\n\nVorteil: robuster gegen Abweichungen zwischen Herleitungs- und Anwendungsbestand (zusätzlich in Irrtumsrisiko erfasst), erleichtert Ableitung von Tafelvarianten.\nModellbestand für Alter 20-65 (wo Versichertendaten vorliegen)\n\n\n\n\n\nIrrtumsrisiko\n\nIrrtumsrisiko - für Herleitung und Anwendung",
-    "crumbs": [
-      "DAV 2008 T"
+      "DAV 2004 R"
     ]
   },
   {
@@ -56,7 +26,7 @@
     "section": "",
     "text": "1.1 DAV",
     "crumbs": [
-      "DAV 2008 T",
+      "DAV 2004 R",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
@@ -67,7 +37,7 @@
     "section": "",
     "text": "DAV 2008 T https://aktuar.de/de/wissen/fachinformationen/detail/herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/\nDAV 2008 T NR https://aktuar.de/de/wissen/fachinformationen/detail/raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/",
     "crumbs": [
-      "DAV 2008 T",
+      "DAV 2004 R",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
@@ -78,7 +48,7 @@
     "section": "1.2 Qx-Club",
     "text": "1.2 Qx-Club\nhttp://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf",
     "crumbs": [
-      "DAV 2008 T",
+      "DAV 2004 R",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
     ]
   }
