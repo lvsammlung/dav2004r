@@ -99,7 +99,47 @@
     "href": "root_chapter/trendbetrachtung.html",
     "title": "3  Trendbetrachtung",
     "section": "",
-    "text": "Warning: Paket 'dplyr' wurde unter R Version 4.4.3 erstellt\n\n\n\nAttache Paket: 'dplyr'\n\n\nDie folgenden Objekte sind maskiert von 'package:stats':\n\n    filter, lag\n\n\nDie folgenden Objekte sind maskiert von 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\nWarning: Paket 'ggplot2' wurde unter R Version 4.4.3 erstellt\n\n\nWarning: Paket 'tidyr' wurde unter R Version 4.4.3 erstellt",
+    "text": "3.1 Trends der Tafeln 2. und 1. Ordnung\nEs gibt 3 Trends nach DAV 2004 R:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trendbetrachtung</span>"
+    ]
+  },
+  {
+    "objectID": "root_chapter/trendbetrachtung.html#trends-der-tafeln-2.-und-1.-ordnung",
+    "href": "root_chapter/trendbetrachtung.html#trends-der-tafeln-2.-und-1.-ordnung",
+    "title": "3  Trendbetrachtung",
+    "section": "",
+    "text": "Trend\nEntspricht\nUmsetzung\n\n\n\n\nStarttrend 2. Ord\nKurzfristtrend für Versicherte\nEs wird auf den glatteren Mittelfristtrend bzw. dessen Glättung (geglätteter Mittelfristtrend) zurückgegriffen.\n\nFür Männern erhöht um die Differenz von MF-Trend zu KF-Trend in den Altern 60-89, bei Frauen ohne Anpassung da MF- und KF-Trend im Mittel sehr vergleichbar sind\nerhöht um Versichertenzuschlag\nRandalter: für niedrige Alter auf 3% minimiert, für hohe Alter auf 1% festgesetzt\n\n\n\nZieltrend 2. Ord\n75% des Mittelfristtrends für Versicherte\nEntspricht 75% des geglätteten Mittelfristtrends inkl. Anpassung um Versichertenzuschlag und Extrapolation der Randalter\n\nhöher als Trend 1. Ordnung der DAV 1994 R\n\n\n\nTrend 1. Ord\nKurzfristtrend für Versicherte erhöht um Sicherheiten\nStarttrend 2. Ord erhöht um\n\nÄnderungsrisiko von 0,25% Sterblichkeitsverbesserung\n\n\n\n\n\ngeglätteter Mittelfristtrend: sei \\(F(x)\\) der rohe Mittelfristtrend zum Alter \\(x\\) für die Alter 0-89. Zu Gewicht \\(1\\) je Alter, Glättemaß 0,25 und s=3 wird per Whittaker-Henderson der geglättete Mittelfristtrend bestimmt.\nVersichertenzuschlag: 0,2% jährliche Sterblichkeitsverbesserung",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trendbetrachtung</span>"
+    ]
+  },
+  {
+    "objectID": "root_chapter/trendbetrachtung.html#trend-je-alter",
+    "href": "root_chapter/trendbetrachtung.html#trend-je-alter",
+    "title": "3  Trendbetrachtung",
+    "section": "3.2 Trend je Alter",
+    "text": "3.2 Trend je Alter\nHinweis: der Trend entspricht in etwa der Sterblichkeitsverbesserung (siehe Section 3.4.1)\n\nMännerFrauen",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trendbetrachtung</span>"
+    ]
+  },
+  {
+    "objectID": "root_chapter/trendbetrachtung.html#sterblichkeitsverbesserung-nach-n-jahren",
+    "href": "root_chapter/trendbetrachtung.html#sterblichkeitsverbesserung-nach-n-jahren",
+    "title": "3  Trendbetrachtung",
+    "section": "3.3 Sterblichkeitsverbesserung nach n Jahren",
+    "text": "3.3 Sterblichkeitsverbesserung nach n Jahren",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trendbetrachtung</span>"
+    ]
+  },
+  {
+    "objectID": "root_chapter/trendbetrachtung.html#anhang",
+    "href": "root_chapter/trendbetrachtung.html#anhang",
+    "title": "3  Trendbetrachtung",
+    "section": "3.4 Anhang",
+    "text": "3.4 Anhang\n\n3.4.1 Zusammenhang Trend und Sterblichkeitsverbesserung\nBei gegebener Trendfunktion \\(F_t(x)\\) kann man aus der Sterbewahrscheinlichkeit des Jahres \\(t\\) die Sterbewahrscheinlichkeit des Jahres \\(t+1\\) errechnen.\n\\[q_{x, t+1} := q_{x, t} \\cdot e^{-F_t(x)}\\] Im Fall ohne Trenddämpfung gilt \\(F_t(x) = F(x)\\), dass also ein vom Jahr unabhängiger Wert vorliegt. Für jedes Jahr verringert sich somit die Sterbewahrscheinlichkeit um den gleichen Anteil. Dabei entspricht die Sterblichkeitsverbesserung näherungsweise dem Trend selbst:\n\n\nCode\ntibble(trend   = c(0.035, 0.03, 0.025, 0.02, 0.01, 0.0075), \n     eexp    = exp(-trend),\n     sterblichkeitsverbesserung = 1-eexp,\n     anteil_trend = sterblichkeitsverbesserung/trend) |&gt;\n\ngt::gt() |&gt; \ngt::opt_table_font(size = 11) |&gt; \ngt::fmt_number(1,  decimals = 3, ) |&gt; \ngt::fmt_number(2:3, decimals = 6) |&gt; \ngt::fmt_percent(4, decimals = 0) |&gt; \ngt::cols_label(\n  trend = md(\"$F(x)$\"),\n  eexp  = md(\"$exp^{-F(x)}$\"),\n)\n\n\n\n\n\n\n\n\n\\(F(x)\\)\n\\(exp^{-F(x)}\\)\nsterblichkeitsverbesserung\nanteil_trend\n\n\n\n\n0,035\n0,965605\n0,034395\n98%\n\n\n0,030\n0,970446\n0,029554\n99%\n\n\n0,025\n0,975310\n0,024690\n99%\n\n\n0,020\n0,980199\n0,019801\n99%\n\n\n0,010\n0,990050\n0,009950\n100%\n\n\n0,007\n0,992528\n0,007472\n100%",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Trendbetrachtung</span>"
     ]
